@@ -1,12 +1,12 @@
 import { Container, Tab, Row, Col, Nav } from "react-bootstrap";
-import ProjectCard from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import CertificateCard from "./CertificateCard";
 
-const Projects = () => {
+const Certificate = () => {
 
-    const projects = [
+    const certificates = [
         {
           title: "Business Startup",
           description: "Design & Development",
@@ -40,13 +40,13 @@ const Projects = () => {
       ];
 
     return ( 
-        <section className="project" id="projects">
+        <section className="certificate" id="certificates">
             <Container>
                 <Row>
                     <Col>
-                    <h2>Projects</h2>
+                    <h2>Certifications</h2>
                     <p></p>
-                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Tab.Container id="certificates-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
@@ -62,11 +62,11 @@ const Projects = () => {
                     <Tab.Pane eventKey="first">
                         <Row>
                             {
-                                projects.map((project, index) => {
+                                certificates.map((certificate, index) => {
                                     return (
-                                        <ProjectCard
+                                        <CertificateCard
                                         key={index}
-                                        {...project}
+                                        {...certificate}
                                         />
                                     )
                                 })
@@ -85,4 +85,4 @@ const Projects = () => {
     );
 }
  
-export default Projects;
+export default Certificate;

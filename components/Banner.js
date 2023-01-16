@@ -48,7 +48,7 @@ const tick = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{'Hey, I am Carnage '}<span className="wrap">{text}</span></h1>
-                        <p>My name is Yash Harale, I'm a React developer and a Professional Esports Athlete. I'm also good at Digital Marketing as well as Event Management. I do Freelancing, Video Editing, Graphic Designing, and Youtube Streaming for fun.</p>
+                        <p>My name is Yash Harale, I'm a React developer. I am constantly driven by my love for code and the desire to build innovative technology. I am fascinated by the opportunity to explore and combine different technologies, and I am always looking for opportunities to collaborate, learn, improve my skills, and grow as a developer.</p>
                         <button onClick={() => console.log('connect')}>Lets Connect</button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

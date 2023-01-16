@@ -39,44 +39,94 @@ const Skills = () => {
                         <p></p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="Img" />
                             <h5>Web Development</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="Img" />
                             <h5>Graphic designing</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="Img" />
                             <h5>Video Editing</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="Img" />
                             <h5>Digital Marketing</h5>
                         </div>
 
                         
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="Img" />
                             <h5>Content Creation</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter3} alt="Image" />
-                            <h5>GFX/VFX Artist</h5>
+                            <img src={meter3} alt="Img" />
+                            <h5>GFX Artist</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="Img" />
                             <h5>Freelancing</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="Img" />
                             <h5>Event Management</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>Copywriting</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Img" />
+                            <h5>VFX Artist</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>Search Engine Optimization</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>HTML/CSS</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Img" />
+                            <h5>React Javascript</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>API Development</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Img" />
+                            <h5>Vite Javascript</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>Bootstrap 5</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>Tailwind CSS</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter2} alt="Img" />
+                            <h5>App Development</h5>
                         </div>
 
                         </Carousel> 
@@ -84,7 +134,7 @@ const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="Img" />
         </section>
     );
 }
